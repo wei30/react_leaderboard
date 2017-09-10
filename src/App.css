@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  font-size: 50px;
+  color: lightblue;
+}
+
+.imageHeight{
+  height:40px;
+  float:left;
+  border: 1px solid black;
+}
+
+.helo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
