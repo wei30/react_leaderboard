@@ -3,6 +3,7 @@ import axios from 'axios';
 import Image from 'react-bootstrap/lib/Image';
 import './App.css';
 import { RingLoader } from 'react-spinners';
+import child from './child.js';
 
 class App extends Component {
   constructor(props){
@@ -10,7 +11,6 @@ class App extends Component {
     this.state = {
       Top100RecentCampers: [],
       Top100AlltimeCampers: [],
-      currentView: 'Top100RecentCampers',
       ButtonName: 'Top100Recent',
       loading: true
     };
